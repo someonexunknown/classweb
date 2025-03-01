@@ -22,7 +22,7 @@ body {
     width: 100vw;
     height: 100vh;
     opacity: 0.3; /* Added to change the opacity of the background video */
-    filter: blur(2px);
+    filter: blur(1px);
     width: 100%;
     height: auto;
     max-height: 100vh;
@@ -55,6 +55,7 @@ body {
     top: 40px;
     left: 0;
     z-index: 2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Added drop shadow */
 }
 
 .menu-list li {
@@ -95,6 +96,8 @@ body {
     position: absolute;
     top: 30px;
     right: 30px;
+    filter: drop-shadow(px 5px 5px rgba(0, 0, 0, 0.5)); /* Added drop shadow effect */
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5)); /* Added drop shadow */
 }
 
 .top-right-links a {
@@ -119,6 +122,7 @@ body {
     max-width: 100px;
     height: auto;
     z-index: 1;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5)); /* Added drop shadow */
 }
 @media (max-width: 600px) {
     .center-top-logo {
