@@ -22,7 +22,7 @@ body {
     width: 100vw;
     height: 100vh;
     opacity: 0.3; /* Added to change the opacity of the background video */
-    filter: blur(0.8px);
+    filter: blur(2px);
     width: 100%;
     height: auto;
     max-height: 100vh;
